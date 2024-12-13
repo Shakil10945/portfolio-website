@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+header {
+    background: #003366;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+nav {
+    background: #00509e;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #003366;
+}
+
+.about {
+    text-align: center;
+}
+
+.skills, .projects, .research, .experience {
+    margin-top: 2rem;
+}
+
+.skills ul, .projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skills ul li, .projects ul li {
+    background: #f4f4f4;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer {
+    text-align: center;
+    background: #003366;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+a {
+    color: #00509e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.profile-photo {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.profile-photo img {
+    width: 250px; /* Increased width */
+    height: 350px; /* Increased height (slightly taller than width) */
+    border-radius: 15px; /* Rounded corners */
+    border: 3px solid #003366; /* Border color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better aesthetics */
+    object-fit: cover; /* Ensures the image fits well in the rectangle */
+}
+
+
