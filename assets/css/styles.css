@@ -112,3 +112,20 @@ a:hover {
 }
 
 
+.social-links {
+    margin-top: 1rem; /* Add spacing above the icons */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: #00509e; /* Custom color for the section */
+}
+
+.social-links a img {
+    width: 32px; /* Size of the icons */
+    height: 32px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social-links a img:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
