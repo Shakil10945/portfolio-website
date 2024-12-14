@@ -131,6 +131,88 @@ a:hover {
     transform: scale(1.2); /* Slight zoom on hover */
 }
 
+/* about section and photo */
+.about-content {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    gap: 80px; /* Adds space between photo and text */
+}
+
+.profile-photo img {
+    width: 250px; /* Increased width */
+    height: 350px; /* Increased height (slightly taller than width) */
+    border-radius: 15px; /* Rounded corners */
+    border: 3px solid #003366; /* Border color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better aesthetics */
+    object-fit: cover; /* Ensures the image fits well in the rectangle */
+}
+
+.about-text {
+    max-width: 600px; /* Control the text box width */
+}
+
+/*Educaiton*/
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.education th, .education td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.education th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.education tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.education tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Certifications */
+.certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certifications li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.certifications strong {
+    font-weight: bold;
+}
+
+/* Writings/blog */
+.writings ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.writings li {
+    margin-bottom: 15px;
+}
+
+.writings a {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.writings a:hover {
+    text-decoration: underline;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 1200px) {
