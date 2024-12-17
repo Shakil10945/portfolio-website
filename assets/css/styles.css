@@ -58,11 +58,11 @@ section h2 {
     text-align: center;
 }
 
-.skills, .projects, .research, .experience {
+.skills, .projects, .paper, .experience {
     margin-top: 2rem;
 }
 
-.skills ul, .projects ul {
+.skills ul, .projects ul, .paper ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -71,7 +71,7 @@ section h2 {
     justify-content: center;
 }
 
-.skills ul li, .projects ul li {
+.skills ul li, .projects ul li, .paper ul li {
     background: #f4f4f4;
     padding: 0.5rem 1rem;
     border: 1px solid #ddd;
