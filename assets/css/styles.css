@@ -178,17 +178,17 @@ a:hover {
 }
 
 /* Certifications */
-.certifications ul {
+.certifications ul, .activities ul {
     list-style-type: none;
     padding: 0;
 }
 
-.certifications li {
+.certifications li, .activities li {
     margin-bottom: 15px;
     font-size: 1.1em;
 }
 
-.certifications strong {
+.certifications strong, .activities strong {
     font-weight: bold;
 }
 
