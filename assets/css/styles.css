@@ -260,6 +260,7 @@ a:hover {
 
     .skills ul, .projects ul {
         justify-content: flex-start;
+        align-items: center;
     }
 
     .skills ul li, .projects ul li {
