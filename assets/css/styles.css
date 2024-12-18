@@ -116,6 +116,7 @@ a:hover {
     text-decoration: underline;
 }
 
+
 .profile-photo {
     text-align: center;
     margin: 2rem 0;
@@ -158,10 +159,22 @@ a:hover {
 .profile-photo img {
     width: 250px; /* Increased width */
     height: 350px; /* Increased height (slightly taller than width) */
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 45px; /* Rounded corners */
+    border-top-left-radius: 0svb;
+    border-bottom-right-radius: 0svb;
+
     border: 3px solid #003366; /* Border color */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better aesthetics */
     object-fit: cover; /* Ensures the image fits well in the rectangle */
+        /* Design Cut Corners */
+        /* clip-path: polygon(
+            0 0,              /* Top-left corner */
+            100% 0,           /* Top-right corner */
+            100% 20px,        /* Cut downward 20px at the top-right */
+            calc(100% - 20px) 100%, /* Bottom-right cut */
+            20px 100%,        /* Cut upward 20px at bottom-left */
+            0 calc(100% - 20px) /* Left edge cut upward */
+        ); */
 }
 
 .about-text {
