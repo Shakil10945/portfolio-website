@@ -93,20 +93,62 @@ section h2::after {
     padding: 0.5rem 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
+    
 }
+
 
 .contact {
+    background: black;
     text-align: center;
     margin-top: 2rem;
+    color: #fff;
 }
 
-footer {
+/* footer {
     text-align: center;
     background: #003366;
     color: #fff;
     padding: 1rem;
     margin-top: 2rem;
-}
+} */
+
+.footer-section {
+    background-color: #003366; /* Dark blue background */
+    color: white; /* White text */
+    text-align: center; /* Center-align all text */
+    padding: 2rem; /* Add padding for spacing */
+  }
+  
+  .footer-content h2 {
+    font-size: 2rem; /* Size for "Contact Me" */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
+  
+  .footer-content hr {
+    width: 100%; /* Line is half the width of the section */
+    margin: 1rem auto; /* Center the line with auto margin */
+    border: 1px solid white; /* White bold line */
+  }
+  
+  .contact-links p {
+    margin: 0.5rem 0; /* Add spacing between each line */
+    font-size: 1.1rem; /* Slightly larger text */
+  }
+  
+  .contact-links a {
+    color: #87CEEB; /* Light blue link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .contact-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer-rights {
+    margin-top: 1rem; /* Space above the rights line */
+    font-size: 0.9rem; /* Slightly smaller text for the copyright */
+  }
+  
 
 a {
     color: #00509e;
@@ -165,16 +207,6 @@ a:hover {
 
     border: 3px solid #003366; /* Border color */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better aesthetics */
-    object-fit: cover; /* Ensures the image fits well in the rectangle */
-        /* Design Cut Corners */
-        /* clip-path: polygon(
-            0 0,              /* Top-left corner */
-            100% 0,           /* Top-right corner */
-            100% 20px,        /* Cut downward 20px at the top-right */
-            calc(100% - 20px) 100%, /* Bottom-right cut */
-            20px 100%,        /* Cut upward 20px at bottom-left */
-            0 calc(100% - 20px) /* Left edge cut upward */
-        ); */
 }
 
 .about-text {
