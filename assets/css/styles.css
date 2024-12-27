@@ -25,7 +25,9 @@ header p {
 }
 
 
-nav {
+
+
+/* nav {
     background: #00509e;
     padding: 0.5rem 2rem;
     display: flex;
@@ -41,7 +43,38 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-}
+} */
+
+.nav-toggle {
+    display: none; /* Hidden on bigger screens */
+    font-size: 1.6rem;
+    background: transparent;
+    border: none;
+    color: #fff;
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    cursor: pointer;
+  }
+  
+  #mainNav {
+    background: #00509e;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  #mainNav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #mainNav a:hover {
+    text-decoration: underline;
+  }
+
 
 section {
     padding: 2rem;
@@ -303,7 +336,20 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    nav {
+    .nav-toggle {
+        display: block; /* Show toggle on smaller screens */
+      }
+      #mainNav {
+        display: none; /* Hidden by default, toggled by JS */
+        flex-direction: column;
+        gap: 0;
+      }
+      #mainNav a {
+        display: block;
+        padding: 0.5rem 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+      }
+    /* nav {
         padding: 0.5rem;
         flex-direction: row;
         gap: 1rem;
@@ -322,7 +368,7 @@ a:hover {
     nav a:nth-child(8),  /* Contact */
     nav a:nth-child(9) {  /* Contact */
         display: block;
-    }
+    } */
     header h1 {
         font-size: 1.8rem;
     }
@@ -374,9 +420,9 @@ a:hover {
         height: 210px;
     }
 
-    nav {
+    /* nav {
         padding: 0.4rem;
-    }
+    } */
 
     .skills ul li, .projects ul li {
         padding: 0.4rem;
