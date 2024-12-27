@@ -312,6 +312,19 @@ a:hover {
 
 /* Responsive Design */
 @media (max-width: 1200px) {
+    .nav-toggle {
+        display: block; /* Show toggle on smaller screens */
+      }
+      #mainNav {
+        display: none; /* Hidden by default, toggled by JS */
+        flex-direction: column;
+        gap: 0;
+      }
+      #mainNav a {
+        display: block;
+        padding: 0.5rem 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+      }
     section {
         padding: 1.5rem;
     }
@@ -336,11 +349,11 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    .nav-toggle {
-        display: block; /* Show toggle on smaller screens */
+    /* .nav-toggle {
+        display: block; 
       }
       #mainNav {
-        display: none; /* Hidden by default, toggled by JS */
+        display: none; 
         flex-direction: column;
         gap: 0;
       }
@@ -348,7 +361,7 @@ a:hover {
         display: block;
         padding: 0.5rem 1rem;
         border-top: 1px solid rgba(255, 255, 255, 0.2);
-      }
+      } */
 
 
 
