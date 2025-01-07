@@ -234,7 +234,7 @@ a:hover {
 
 .profile-photo img {
     width: 250px; /* Increased width */
-    height: 350px; /* Increased height (slightly taller than width) */
+    height: 380px; /* Increased height (slightly taller than width) */
     border-radius: 45px; /* Rounded corners */
     border-top-left-radius: 0svb;
     border-bottom-right-radius: 0svb;
